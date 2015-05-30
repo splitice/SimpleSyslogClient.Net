@@ -6,6 +6,9 @@ using System.Text;
 
 namespace SimpleSyslogClient.Net
 {
+    /// <summary>
+    /// Syslog Client
+    /// </summary>
     public class Syslog
     {
         #region Facilities enum
@@ -58,7 +61,7 @@ namespace SimpleSyslogClient.Net
         {
             _ipLocal = Network.GetPrimaryAddress();
             _syslogEndPoint = new IPEndPoint(serverIp, port);
-            Console.WriteLine(String.Format("Syslog initialized to send to {0}", _syslogEndPoint));
+            //Console.WriteLine(String.Format("Syslog initialized to send to {0}", _syslogEndPoint));
             _udpClient = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
         }
 
