@@ -13,6 +13,6 @@
     <copyright>Copyright Never</copyright>
   </metadata>
 	<files>
-		<file src="bin/Release/JSONConfigHelpers.dll" target="lib" />
+		<file src="bin/Release/SimpleSyslogClient.Net.dll" target="lib" />
 	</files>
 </package>
