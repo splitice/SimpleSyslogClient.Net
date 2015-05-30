@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SimpleSyslogClient.Net</id>
+    <version>$version$</version>
+    <title>SimpleSyslogClient.Net</title>
+    <authors>SplitIce</authors>
+    <owners>SplitIce</owners>
+    <projectUrl>https://github.com/splitice/SimpleSyslogClient.Net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple Syslog Client for .NET</description>
+    <releaseNotes>Automatic Updates via GitHub</releaseNotes>
+    <copyright>Copyright Never</copyright>
+  </metadata>
+	<files>
+		<file src="bin/Release/JSONConfigHelpers.dll" target="lib" />
+	</files>
+</package>
